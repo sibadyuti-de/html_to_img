@@ -5,7 +5,7 @@ options = {
     'xvfb': ''
 }
 
-config = imgkit.config(wkhtmltoimage='/usr/local/bin/wkhtmltoimage', xvfb='/usr/bin/Xvfb')
+config = imgkit.config(wkhtmltoimage='/usr/local/bin/wkhtmltoimage')
 # imgkit.from_string(html_string, output_file, config=config)
 
 
