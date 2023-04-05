@@ -1,7 +1,8 @@
 import imgkit         # refer to the documentation https://pypi.org/project/imgkit/ requires https://wkhtmltopdf.org/downloads.html
 
 options = {
-    'format': 'png'
+    'format': 'png',
+     'xvfb': ''
 }
 
 #imgkit.from_url('https://google.com', 'google.png', options=options)  # from url
