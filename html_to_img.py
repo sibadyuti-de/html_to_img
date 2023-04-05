@@ -5,9 +5,13 @@ options = {
     'xvfb': ''
 }
 
+config = imgkit.config(wkhtmltoimage='/usr/local/bin/wkhtmltoimage', xvfb='/usr/bin/Xvfb')
+# imgkit.from_string(html_string, output_file, config=config)
+
+
 #imgkit.from_url('https://google.com', 'google.png', options=options)  # from url
 
-imgkit.from_file('test.html', 'test.png', options=options)   # when supplied from file
+imgkit.from_file('test.html', 'test.png', options=options , config=config)   # when supplied from file
 
 # or
 
