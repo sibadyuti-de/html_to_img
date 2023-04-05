@@ -2,7 +2,7 @@ import imgkit         # refer to the documentation https://pypi.org/project/imgk
 
 options = {
     'format': 'png',
-     'xvfb': ''
+    'xvfb': ''
 }
 
 #imgkit.from_url('https://google.com', 'google.png', options=options)  # from url
