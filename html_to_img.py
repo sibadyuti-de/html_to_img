@@ -1,8 +1,7 @@
 import imgkit         # refer to the documentation https://pypi.org/project/imgkit/ requires https://wkhtmltopdf.org/downloads.html
 
 options = {
-    'format': 'png',
-    'xvfb': ''
+    'format': 'png'
 }
 
 config = imgkit.config(wkhtmltoimage='/usr/local/bin/wkhtmltoimage')
