@@ -1,0 +1,4 @@
+to run the script in amazon linux first install the dependency
+with the commands :-
+
+sudo yum install dependency_package/amazon_linux/wkhtmltox-0.12.6-1.amazonlinux2.x86_64.rpm
