@@ -13,8 +13,6 @@ RUN apt-get update &&\
     apt-get install nano -y &&\
     apt-get install wkhtmltopdf -y &&\
     apt-get autoremove -y &&\
-    apt-get purge -y ca-certificates &&\
-    apt-get clean &&\
-    rm -rf /var/lib/apt/lists/*
+    apt-get clean
 
 CMD /bin/bash
