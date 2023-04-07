@@ -8,7 +8,8 @@ RUN apt-get update &&\
     apt-get install python3 pip -y &&\
     apt-get install xvfb -y &&\
     pip install imgkit &&\
-
+    apt-get install wget -y &&\
+    apt-get install nano -y &&\
     apt-get install wkhtmltopdf -y &&\
     apt-get purge -y ca-certificates &&\
     apt-get autoremove -y &&\
