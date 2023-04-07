@@ -15,4 +15,4 @@ RUN apt-get update &&\
     apt-get clean &&\
     rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ['/bin/bash']
+CMD /bin/bash
